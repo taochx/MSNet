@@ -12,15 +12,15 @@ In the research of automatic interpretation of remote sensing images, semantic s
 
 We present a new deep neural network structure called MSNet for multispectral remote sensing images for semantic segmentation of multiple feature scenes. [Figure 1](https://www.tandfonline.com/doi/full/10.1080/15481603.2022.2101728#f0001) shows the overall structure of MSNet, which mainly consists of two parts: 1) Band splitting and simultaneous feature extraction, split the multispectral remote sensing image bands into visible and invisible light, and both draw support from ResNet-50 for feature extraction in the coding stage; 2) Feature fusion decoding, adopt the cascaded upsampling method to recover the feature map resolution in the decoding stage, and uses the feature pyramid structure to layer-by-layer fusion of multi-scale image features and spectral features in the upsampling process to finally obtain semantic segmentation results.
 
-![fig1.png](https://github.com/taochx/MSNet/figs/fig1.png)
+![fig1](.\figs\fig1.png)
 
 # Comparison
 
 We use the GID and Potsdam datasets, respectively, to experimentally compare MSNet of both data models with some mature semantic segmentation network models DeepLabV3+, FPN, PSPNet, UNet, and RTFNet.
 
-![](\figs\fig5a.png)
+![fig5a](.\figs\fig5a.png)
 
-![](\figs\fig7a.png)
+![fig7a](.\figs\fig7a.png)
 
 # Credits
 
