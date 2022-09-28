@@ -27,13 +27,14 @@ We use the GID and Potsdam datasets, respectively, to experimentally compare MSN
 If you find this work useful, please consider citing:
 
 ```bibtex
-  @article{tao_msnet_2022,
-    title={{MSNet}: multispectral semantic segmentation network for remote sensing images},
-    author={Tao, Chongxin and Meng, Yizhuo and Li, Junjie and Yang, Beibei and Hu, Fengmin and Li, Yuanxi and Cui, Changlu and Zhang, Wen},
-    journal={{GIScience} \& Remote Sensing},
-    volume={59},
-    pages={1177--1198},
-    year={2022},
-    publisher={Taylor \& Francis}
-  }
+@article{tao2022msnet,
+  title={MSNet: multispectral semantic segmentation network for remote sensing images},
+  author={Tao, Chongxin and Meng, Yizhuo and Li, Junjie and Yang, Beibei and Hu, Fengmin and Li, Yuanxi and Cui, Changlu and Zhang, Wen},
+  journal={GIScience \& Remote Sensing},
+  volume={59},
+  number={1},
+  pages={1177--1198},
+  year={2022},
+  publisher={Taylor \& Francis}
+}
 ```
